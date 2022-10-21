@@ -161,25 +161,6 @@ i{
     color: var(--light-color)
 }
 
-/* Header JavaScript Style */
-
-.header.activated{
-    box-shadow: 0 1px .5rem var(--transparent-light-color);
-}
-
-.header.activated{
-    box-shadow: 1px 1px 1rem var(--transparent-light-color);
-    opacity: 1;
-    transform: scale(1);
-}
-
-.menu-toggle-icon.activated .open-menu-icon{
-    display: none;
-}
-
-.menu-toggle-icon.activated .close-menu-icon{
-    display: block;
-}
 /* featured articles */
 
 .featured-articles{
@@ -487,4 +468,6 @@ i{
         grid-template-columns: 1fr 40rem;
     }
 }
+
+/* end */
 
